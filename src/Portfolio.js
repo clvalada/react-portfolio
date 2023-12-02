@@ -2,6 +2,8 @@
 
 import React from 'react';
 import projectData from './ProjectData';
+import PropTypes from 'prop-types';
+
 
 function ProjectCard({ image, description, githubLink, deployedLink }) {
   return (
@@ -21,6 +23,14 @@ function ProjectCard({ image, description, githubLink, deployedLink }) {
     </div>
   );
 }
+
+ProjectCard.propTypes = {
+  image: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  githubLink: PropTypes.string.isRequired,
+  deployedLink: PropTypes.string.isRequired,
+};
+
 
 function Portfolio() {
   return (

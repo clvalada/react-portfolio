@@ -1,7 +1,7 @@
 module.exports = {
-    parser: require.resolve('babel-eslint'),
-    extends: ['eslint:recommended', 'plugin:react/recommended', 'plugin:react-hooks/recommended'],
+    parser: '@babel/eslint-parser',
     plugins: ['react', 'react-hooks'],
+    extends: ['eslint:recommended', 'plugin:react/recommended', 'plugin:react-hooks/recommended'],
     rules: {
       'react/jsx-no-undef': 'error',
       'react-hooks/rules-of-hooks': 'error',
