@@ -1,14 +1,14 @@
-// App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Routes } from 'react-router-dom';
-import Navbar from './Navbar';
+import { Routes, Route } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Resume from './Resume';
+import Navbar from './Navbar';
 import Footer from './Footer';
 
+// Define App component
 const App = () => {
   return (
     <Router>
@@ -16,11 +16,11 @@ const App = () => {
         <Navbar />
         <div className="content">
           <Routes>
-            <Route path="/" exact component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/portfolio" component={Portfolio} />
-            <Route path="/contact" component={Contact} />
-            <Route path="/resume" component={Resume} />
+            <Route path="/" element={<Home />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Portfolio" element={<Portfolio />} />
+            <Route path="/Contact" element={<Contact />} />
+            <Route path="/Resume" element={<Resume />} />
           </Routes>
         </div>
         <Footer />
@@ -28,5 +28,14 @@ const App = () => {
     </Router>
   );
 };
+
+// Render App component
+const root = createRoot(document.getElementById('root'));
+
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 
 export default App;
