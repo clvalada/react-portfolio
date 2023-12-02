@@ -1,6 +1,6 @@
 // App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Routes } from 'react-router-dom';
 import Navbar from './Navbar';
 import Home from './Home';
 import About from './About';
@@ -15,13 +15,13 @@ const App = () => {
       <div className="App">
         <Navbar />
         <div className="content">
-          <Switch>
+          <Routes>
             <Route path="/" exact component={Home} />
             <Route path="/about" component={About} />
             <Route path="/portfolio" component={Portfolio} />
             <Route path="/contact" component={Contact} />
             <Route path="/resume" component={Resume} />
-          </Switch>
+          </Routes>
         </div>
         <Footer />
       </div>
