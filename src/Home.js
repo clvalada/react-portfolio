@@ -3,7 +3,7 @@ import React from 'react';
 const Home = () => {
     return (  
         <div className="home">
-            <img src='/public/images/avatar.jpg' alt="avatar" />
+            <img src='public/avatar.jpg' alt="avatar" />
         </div>
     );
 }

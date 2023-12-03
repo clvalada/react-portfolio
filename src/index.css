@@ -176,3 +176,13 @@ button[type="submit"]:hover {
 .home img {
   max-width: 100%;
 }
+
+.social-links a {
+  margin-right: 10px; 
+  text-decoration: none;
+  color: #333; 
+}
+
+.social-links a:hover {
+  color: #f1356d; 
+}
