@@ -123,3 +123,29 @@ button[type="submit"] {
 button[type="submit"]:hover {
   color: #f1356d;
 }
+
+.about {
+  display: flex; 
+}
+
+.left-content {
+  flex: 1; 
+  margin-right: 16px; 
+}
+
+.right-content {
+  flex: 1; 
+}
+
+/* Home.css */
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home img {
+  max-width: 100%;
+}
