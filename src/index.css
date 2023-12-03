@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
-/* base styles */
-
 * {
   margin: 0;
   font-family: "Lato";
@@ -169,7 +167,7 @@ button[type="submit"]:hover {
 .home {
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 20 px;
   height: 100vh;
 }
 
