@@ -1,6 +1,6 @@
 const projectData = [
     {
-      image: './src/images/bdayapp.jpg',
+      image: './images/bdayapp.jpg',
       description: 'The Birthday App is a web app that provides users with historical events that happened on their birthday. It utilizes HTML, Tailwind CSS, JavaScript, and two 3rd party APIs.',
       githubLink: 'https://github.com/lindseycarlson23/birthday-app',
       deployedLink: 'https://lindseycarlson23.github.io/birthday-app/',
@@ -24,13 +24,13 @@ const projectData = [
         deployedLink: 'https://clvalada.github.io/challenge-3-password-generator/',
       },
       {
-        image: './images/sample-question.png',
+        image: './images/codingquiz.png',
         description: 'Timed Coding Quiz is a 60-second multiple choice quiz about the fundamentals of JavaScript. It utilizes JavaScript, HTML, and CSS.',
         githubLink: 'https://github.com/clvalada/Timed-Coding-Quiz',
         deployedLink: 'https://clvalada.github.io/Timed-Coding-Quiz/',
       },
       {
-        image: './images/note-taker.png',
+        image: './images/notetaker.png',
         description: 'Note Taker is an Express.js application that enables the user to take and save notes.',
         githubLink: 'https://github.com/clvalada/note-taker',
         deployedLink: 'https://note-taker-clv-f900bf932a65.herokuapp.com/public/index.html',

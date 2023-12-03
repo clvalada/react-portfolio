@@ -6,20 +6,37 @@
   margin: 0;
   font-family: "Lato";
   color: #333;
- 
-  
+}
+
+.portfolio {
+  text-align:justify;
+  padding: 5px;
+  margin: 5 px;
 }
 
 .custom-card {
   border: 1px solid #ddd;
   padding: 20px;
   margin: 10px;
-  
+  transition: transform 0.3s ease-in-out;
+}
+
+.custom-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.custom-card h4 {
+  margin-bottom: 10px;
 }
 
 .custom-card:hover {
   transform: scale(1.1);
-  
+  box-shadow: 0 4px 8px #333;
+}
+
+.custom-card hr {
+  margin: 15px 0;
 }
 
 .navbar {
@@ -79,12 +96,22 @@
 
 .container a {
   text-decoration: none;
-  
+  padding: 5 px;
 }
 
 .container a:hover {
   color: #f1356d;
-  
+}
+
+
+.resume a {
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+}
+
+.resume a:hover {
+  color: #f1356d;
 }
 
 .contactForm {
