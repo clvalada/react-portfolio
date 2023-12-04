@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <nav className="footer">
+    <nav className="footer" style={{ marginTop: '20px' }}>
       <div className="links">
         <div className="social-links">
             <hr></hr>

@@ -7,6 +7,10 @@
   color: #333;
 }
 
+body {
+  margin: 0;
+}
+
 .portfolio {
   text-align:justify;
   padding: 5px;
