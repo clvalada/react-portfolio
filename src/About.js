@@ -5,6 +5,7 @@ const About = () => {
   return (
     <div>
       <h2>About Me</h2>
+        <br></br>
       <div className="about">
         <div className="left-content">
           <img src={ profilePic} />

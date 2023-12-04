@@ -80,7 +80,7 @@
 
 .content {
   max-width: 600px;
-  margin: 40px auto;
+  margin: 10px auto;
   padding: 20px;
   
 }
@@ -196,6 +196,5 @@ button[type="submit"]:hover {
 
 .about p {
   margin: 10px;
-  padding: 10 px;
+  padding: 10px;
 }
-
