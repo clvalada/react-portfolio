@@ -1,4 +1,5 @@
 import React from 'react';
+import profilePic from "./145150623.jpeg";
 
 const About = () => {
   return (
@@ -6,7 +7,7 @@ const About = () => {
       <h2>About Me</h2>
       <div className="about">
         <div className="left-content">
-          <img src='public/145150623.jpeg' alt="profile-photo" />
+          <img src={ profilePic} />
         </div>
         <div className="right-content">
           <p>
