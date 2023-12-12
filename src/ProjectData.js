@@ -15,7 +15,7 @@ const projectData = [
         image: './images/fitness-tracker.png',
         description: 'My Fitness Tracker is a MERN full stack application for logging workouts. It utilizes MongoDB, Express, React, and Node.',
         githubLink: 'https://github.com/Bfinch3/fitness-tracker',
-        deployedLink: 'Coming Soon',
+        deployedLink: 'https://fitoness-tracker-779b260a5616.herokuapp.com/',
       },
       {
         image: './images/password-generator.png',

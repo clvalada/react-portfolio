@@ -5,8 +5,8 @@
 This portfolio uses React to showcase my work. 
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![License: MIT](https://img.shields.io/badge/React-blue.svg)
-![License: MIT](https://img.shields.io/badge/Node.js-grey.svg)
+![React](https://img.shields.io/badge/React-blue.svg)
+![Node](https://img.shields.io/badge/Node.js-grey.svg)
 
 
 
