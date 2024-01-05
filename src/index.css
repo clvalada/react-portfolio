@@ -206,8 +206,8 @@ button[type="submit"]:hover {
   padding: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .custom-card {
-    width: calc(50% - 20px);
+    width: calc(33.3% - 20px);
   }
 }
