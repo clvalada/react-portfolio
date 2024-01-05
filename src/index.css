@@ -80,6 +80,7 @@ body {
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
+  font-size: 12px;
 }
 
 .navbar a:hover {
