@@ -2,7 +2,6 @@
 
 * {
   margin: 0;
-  margin-top: 0;
   font-family: "Lato";
   color: #333;
 }
@@ -12,15 +11,22 @@ body {
 }
 
 .portfolio {
-  text-align:justify;
+  text-align: justify;
   padding: 5px;
-  margin: 5 px;
+  margin: 5px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .custom-card {
+  width: calc(33.33% - 20px);
+  margin: 10px;
   border: 1px solid #ddd;
   padding: 20px;
-  margin: 10px;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -48,8 +54,7 @@ body {
   align-items: center;
   max-width: 600px;
   margin: 0 auto;
-  border-bottom: 2 px solid #333;
-  
+  border-bottom: 2px solid #333;
 }
 
 .footer {
@@ -58,18 +63,16 @@ body {
   align-items: center;
   max-width: 600px;
   margin: 0 auto;
-  border-bottom: 2 px solid #333;
+  border-bottom: 2px solid #333;
   justify-content: center;
-  
 }
+
 .navbar h1 {
   color: #f1356d;
-  
 }
 
 .navbar .links {
   margin-left: auto;
-  
 }
 
 .navbar a {
@@ -86,26 +89,23 @@ body {
   max-width: 600px;
   margin: 10px auto;
   padding: 20px;
-  
 }
 
 .container {
   display: flex;
   justify-content: space-evenly;
   text-decoration: none;
-  margin-top: 5 px;
-  
+  margin-top: 5px;
 }
 
 .container a {
   text-decoration: none;
-  padding: 5 px;
+  padding: 5px;
 }
 
 .container a:hover {
   color: #f1356d;
 }
-
 
 .resume a {
   text-decoration: none;
@@ -120,8 +120,8 @@ body {
 .contactForm {
   border: 1px solid #ddd;
   padding: 20px;
-  width: 300px; 
-  margin: 0 auto; 
+  width: 300px;
+  margin: 0 auto;
 }
 
 .form-group {
@@ -129,7 +129,7 @@ body {
 }
 
 label {
-  display: block; 
+  display: block;
   margin-bottom: 5px;
 }
 
@@ -155,42 +155,42 @@ button[type="submit"]:hover {
 }
 
 .about {
-  display: flex; 
+  display: flex;
 }
 
 .left-content {
-  flex: 1; 
-  margin-right: 16px; 
+  flex: 1;
+  margin-right: 16px;
 }
 
 .right-content {
-  flex: 1; 
+  flex: 1;
 }
 
 .home {
   display: flex;
-  margin-top: 0px;
+  margin-top: 0;
   height: 100vh;
   text-align: center;
 }
 
 .social-links a {
-  margin-right: 10px; 
+  margin-right: 10px;
   text-decoration: none;
-  color: #333; 
+  color: #333;
 }
 
 .social-links a:hover {
-  color: #f1356d; 
+  color: #f1356d;
 }
 
 .home img {
-  max-width: 100%; 
-  max-height: 100%; 
-  width: auto; 
-  height: auto; 
-  display: block; 
-  margin: auto; 
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: auto;
 }
 
 .about img {
@@ -201,4 +201,10 @@ button[type="submit"]:hover {
 .about p {
   margin: 10px;
   padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .custom-card {
+    width: calc(50% - 20px);
+  }
 }
