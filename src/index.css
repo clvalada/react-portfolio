@@ -23,7 +23,7 @@ body {
 }
 
 .custom-card {
-  width: calc(33.33% - 20px);
+  width: 250px;
   margin: 10px;
   border: 1px solid #ddd;
   padding: 20px;
