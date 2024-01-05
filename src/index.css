@@ -1,3 +1,5 @@
+/* Add or update the following styles in your CSS file */
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
 * {
@@ -23,12 +25,12 @@ body {
 }
 
 .custom-card {
-  width: 270px;
+  width: calc(33.33% - 20px);
   margin: 10px;
   border: 1px solid #ddd;
   padding: 20px;
   transition: transform 0.3s ease-in-out;
-  font-size: 14px;
+  font-size: smaller;
 }
 
 .custom-card img {
@@ -80,7 +82,6 @@ body {
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
-  font-size: 12px;
 }
 
 .navbar a:hover {
