@@ -13,7 +13,7 @@ body {
 }
 
 .portfolio {
-  text-align: justify;
+  text-align: left;
   padding: 5px;
   margin: 5px;
 }
@@ -31,6 +31,7 @@ body {
   padding: 20px;
   transition: transform 0.3s ease-in-out;
   font-size: smaller;
+  border-radius: 10px;
 }
 
 .custom-card img {
