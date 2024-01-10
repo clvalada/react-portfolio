@@ -1,5 +1,11 @@
 const projectData = [
     {
+    image: './images/dragon-slayer.png',
+    description: 'Dragon Slayer is a role-playing-game based on a freeCodeCamp.org tutorial. Once I completed the tutorial, I added images from Pixabay and edited the CSS to improve the UX.',
+    githubLink: 'https://github.com/clvalada/rpg-dragon-slayer',
+    deployedLink: 'https://clvalada.github.io/rpg-dragon-slayer/',
+    },
+    {
       image: './images/bdayapp.jpg',
       description: 'The Birthday App is a web app that provides users with historical events that happened on their birthday. It utilizes HTML, Tailwind CSS, JavaScript, and two 3rd party APIs.',
       githubLink: 'https://github.com/lindseycarlson23/birthday-app',
