@@ -1,10 +1,16 @@
 import React from 'react';
-import avatar from "./avatar.jpg";
+import About from "./About";
+import Portfolio from './Portfolio';
 
 const Home = () => {
     return (  
         <div className="home">
-            <img src={avatar} style={{ marginTop: '0' }} />
+            <div>
+                <About />
+            </div>
+            <div>
+                <Portfolio />
+            </div>
         </div>
     );
 }

@@ -12,8 +12,8 @@ const About = () => {
         </div>
         <div className="right-content">
           <p>
-            Full Stack Developer with 17 years experience in Education
-            Technology sales, customer success, operations, and leadership
+            Full Stack Developer with 15+ years experience in Education
+            Technology SaaS sales, customer success, operations, and leadership.
            </p>  
            <p>
            I enjoy working with small, passionate teams where I can make a big impact.
