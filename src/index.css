@@ -10,6 +10,7 @@
 
 body {
   margin: 0;
+  padding-top: 60px;
 }
 
 h2 {
@@ -26,14 +27,14 @@ h2 {
 .projects-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .custom-card {
-  width: calc(33.33% - 20px);
+  width: calc(25% - 10px);
   margin: 10px;
   border: 1px solid #ddd;
-  padding: 20px;
+  padding: 10px;
   transition: transform 0.3s ease-in-out;
   font-size: smaller;
   border-radius: 10px;
@@ -61,11 +62,17 @@ h2 {
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 900px;
-  margin: 0 auto;
+  width: 900px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
   border-bottom: 2px solid #333;
-  background-image: "./src/header_banner.jpeg" ;
+  color: #333;
+  position: fixed;
+  background-color: #ddd;
+  z-index: 1000;
 }
+
 
 .footer {
   padding: 20px;
@@ -77,27 +84,29 @@ h2 {
 }
 
 .navbar h1 {
-  color: rgb(47, 36, 202);
+  color: #333;
 }
 
 .navbar .links {
   margin-left: auto;
+  color: #333
 }
 
 .navbar a {
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
+  color:#333;
 }
 
 .navbar a:hover {
-  color: rgb(47, 36, 202);
+  color: orange;
 }
 
 .content {
   max-width: 900px;
   margin: 10px auto;
-  padding: 20px;
+  padding: 10px;
 }
 
 .container {
@@ -114,7 +123,7 @@ h2 {
 }
 
 .container a:hover {
-  color: rgb(47, 36, 202);
+  color: orange;
 }
 
 .resume a {
@@ -124,7 +133,7 @@ h2 {
 }
 
 .resume a:hover {
-  color: rgb(47, 36, 202);
+  color: orange;
 }
 
 .contactForm {
@@ -161,7 +170,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  color: rgb(47, 36, 202);
+  color: orange;
 }
 
 .about {
@@ -170,7 +179,7 @@ button[type="submit"]:hover {
 
 .left-content {
   flex: 1;
-  margin-right: 16px;
+  align-content: center;
 }
 
 .right-content {
@@ -191,12 +200,12 @@ button[type="submit"]:hover {
 }
 
 .social-links a:hover {
-  color: rgb(47, 36, 202);
+  color: orange;
 }
 
 .about img {
   border-radius: 50%;
-  max-width: 70%;
+  max-width: 60%;
 }
 
 .about p {
@@ -204,8 +213,12 @@ button[type="submit"]:hover {
   padding: 10px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .custom-card {
-    width: calc(33.3% - 20px);
+    width: calc(25% - 10px);
+  }
+  .navbar {
+    width: 100%;
+    max-width: 100%;
   }
 }
