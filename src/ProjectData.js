@@ -1,7 +1,7 @@
 const projectData = [
     {
     image: './images/dragon-slayer.png',
-    description: 'Dragon Slayer is a role-playing-game based on a freeCodeCamp.org tutorial. I added images from Pixabay and edited the CSS to improve the UX.',
+    description: 'Dragon Slayer is a role-playing-game based on a freeCodeCamp.org tutorial. I added images and edited the CSS to improve the UX.',
     githubLink: 'https://github.com/clvalada/rpg-dragon-slayer',
     deployedLink: 'https://clvalada.github.io/rpg-dragon-slayer/',
     },

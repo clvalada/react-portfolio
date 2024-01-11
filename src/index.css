@@ -12,10 +12,15 @@ body {
   margin: 0;
 }
 
+h2 {
+  text-align: center;
+}
+
 .portfolio {
   text-align: left;
   padding: 5px;
   margin: 5px;
+  padding-top: 30px;
 }
 
 .projects-container {
@@ -67,7 +72,7 @@ body {
   display: flex;
   max-width: 900px;
   margin: 0 auto;
-  border-bottom: 2px solid #333;
+  border-top: 2px solid #333;
   justify-content: center;
 }
 
@@ -188,16 +193,7 @@ button[type="submit"]:hover {
 .social-links a:hover {
   color: rgb(47, 36, 202);
 }
-/*
-.home img {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  display: block;
-  margin: auto;
-}
-*/
+
 .about img {
   border-radius: 50%;
   max-width: 70%;

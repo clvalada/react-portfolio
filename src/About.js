@@ -4,7 +4,7 @@ import profilePic from "./145150623.jpeg";
 const About = () => {
   return (
     <div>
-      <h3>About Me</h3>
+      
         <br></br>
       <div className="about">
         <div className="left-content">
@@ -12,8 +12,11 @@ const About = () => {
         </div>
         <div className="right-content">
           <p>
-            Full Stack Developer with 15+ years experience in Education
-            Technology SaaS sales, customer success, operations, and leadership.
+            About Me
+          </p>
+          <p>
+            Full Stack Developer, life-long learner, and whiteboard enthusiast with unique customer-facing experience. 
+            Over 15 years in Education Technology SaaS sales, customer success, and leadership roles.
            </p>  
            <p>
            I enjoy working with small, passionate teams where I can make a big impact.
