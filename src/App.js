@@ -7,7 +7,7 @@ import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Resume from './Resume';
 import Navbar from './Navbar';
-import Footer from './Footer';
+//import Footer from './Footer';
 
 // Define App component
 const App = () => {
@@ -24,7 +24,7 @@ const App = () => {
             <Route path="/Resume" element={<Resume />} />
           </Routes>
         </div>
-        <Footer />
+        {/*<Footer />*/}
       </div>
     
   );

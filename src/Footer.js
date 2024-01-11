@@ -5,7 +5,6 @@ const Footer = () => {
     <nav className="footer" style={{ marginTop: '20px' }}>
       <div className="links">
         <div className="social-links">
-            <hr></hr>
           <a href="https://github.com/clvalada" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>

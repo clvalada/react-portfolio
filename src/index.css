@@ -65,7 +65,6 @@ body {
 .footer {
   padding: 20px;
   display: flex;
-  align-items: center;
   max-width: 900px;
   margin: 0 auto;
   border-bottom: 2px solid #333;
@@ -189,7 +188,7 @@ button[type="submit"]:hover {
 .social-links a:hover {
   color: rgb(47, 36, 202);
 }
-
+/*
 .home img {
   max-width: 100%;
   max-height: 100%;
@@ -198,7 +197,7 @@ button[type="submit"]:hover {
   display: block;
   margin: auto;
 }
-
+*/
 .about img {
   border-radius: 50%;
   max-width: 70%;

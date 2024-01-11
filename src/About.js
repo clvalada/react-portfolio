@@ -4,7 +4,7 @@ import profilePic from "./145150623.jpeg";
 const About = () => {
   return (
     <div>
-      <h2>About Me</h2>
+      <h3>About Me</h3>
         <br></br>
       <div className="about">
         <div className="left-content">
