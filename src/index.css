@@ -66,10 +66,9 @@ h2 {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  border-bottom: 2px solid #333;
   color: #333;
   position: fixed;
-  background-color: #ddd;
+  background-image: linear-gradient(to right, #ba5370, #f4e2d8);
   z-index: 1000;
 }
 
@@ -100,7 +99,8 @@ h2 {
 }
 
 .navbar a:hover {
-  color: orange;
+  color: white;
+  background-color: #ba5370;
 }
 
 .content {
@@ -175,11 +175,13 @@ button[type="submit"]:hover {
 
 .about {
   display: flex;
+  border-bottom: 1px solid #333;
+  padding-bottom: 40px;
 }
 
 .left-content {
   flex: 1;
-  align-content: center;
+  padding-left: 60px;
 }
 
 .right-content {
@@ -220,5 +222,9 @@ button[type="submit"]:hover {
   .navbar {
     width: 100%;
     max-width: 100%;
+  }
+
+  .about {
+    flex: block;
   }
 }
