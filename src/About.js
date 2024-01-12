@@ -12,9 +12,6 @@ const About = () => {
         </div>
         <div className="right-content">
           <p>
-            About Me
-          </p>
-          <p>
             Full Stack Developer, life-long learner, and whiteboard enthusiast with unique customer-facing experience. 
             Over 15 years in Education Technology SaaS sales, customer success, and leadership roles.
            </p>  
