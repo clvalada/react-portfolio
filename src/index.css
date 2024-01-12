@@ -175,13 +175,16 @@ button[type="submit"]:hover {
 
 .about {
   display: flex;
+
   border-bottom: 1px solid #333;
   padding-bottom: 40px;
+  align-items: center;
 }
 
 .left-content {
   flex: 1;
   padding-left: 60px;
+  flex-direction: column;
 }
 
 .right-content {
@@ -217,7 +220,7 @@ button[type="submit"]:hover {
 
 @media (max-width: 900px) {
   .custom-card {
-    width: calc(25% - 10px);
+    width: calc(50% - 10px);
   }
   .navbar {
     width: 100%;
@@ -226,5 +229,7 @@ button[type="submit"]:hover {
 
   .about {
     flex: block;
+    flex-direction: column;
+    padding-bottom: 20px;
   }
 }
