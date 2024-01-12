@@ -230,5 +230,7 @@ button[type="submit"]:hover {
     flex: block;
     flex-direction: column;
     padding-bottom: 20px;
+    align-items: center;
   }
+
 }
