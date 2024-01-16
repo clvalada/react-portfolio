@@ -66,11 +66,11 @@ h2 {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  color: #333;
+  color: #F7F6F6;
   position: fixed;
-  background-color: white;
+  background-color: #075070;
   z-index: 1000;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #f14c64;
 }
 
 
@@ -79,24 +79,29 @@ h2 {
   display: flex;
   max-width: 900px;
   margin: 0 auto;
-  border-top: 2px solid #333;
+  border-top: 2px solid #f14c64;;
   justify-content: center;
+  background-color: #075070;
+}
+
+.footer a {
+  color: #F7F6F6;
 }
 
 .navbar h1 {
-  color: #333;
+  color: #F7F6F6;
 }
 
 .navbar .links {
   margin-left: auto;
-  color: #333
+  color: #F7F6F6;
 }
 
 .navbar a {
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
-  color:#333;
+  color: #F7F6F6;
 }
 
 .navbar a:hover {
@@ -123,7 +128,7 @@ h2 {
 }
 
 .container a:hover {
-  color: orange;
+  color: #f14c64;
 }
 
 .resume a {
@@ -133,7 +138,7 @@ h2 {
 }
 
 .resume a:hover {
-  color: orange;
+  color: #f14c64;
 }
 
 .contactForm {
@@ -170,12 +175,12 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  color: orange;
+  color: #f14c64;
 }
 
 .about {
   display: flex;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #f14c64;;
   padding-bottom: 40px;
   align-items: center;
 }
@@ -200,11 +205,11 @@ button[type="submit"]:hover {
 .social-links a {
   margin-right: 10px;
   text-decoration: none;
-  color: #333;
+  color: #F7F6F6;
 }
 
 .social-links a:hover {
-  color: orange;
+  color: #f14c64;;
 }
 
 .about img {
