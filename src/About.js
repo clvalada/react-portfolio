@@ -19,7 +19,7 @@ const About = () => {
            I enjoy working with small, passionate teams where I can make a big impact.
           </p>
           <p>
-          HTML | CSS | Bootstrap | Tailwind | JavaScript | MySQL | Responsive Design | ReactJS | Handlebars.js | Node.js | Express | Heroku | MongoDB
+          HTML | CSS | Bootstrap | Tailwind | JavaScript | MySQL | Responsive Design | ReactJS | Handlebars.js | Node.js | Express | Heroku | MongoDB | e-Commerce
           </p>
         </div>
       </div>
