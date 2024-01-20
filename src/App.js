@@ -11,7 +11,7 @@ import Navbar from './Navbar';
 
 // Define App component
 const App = () => {
-  return (
+  return (      
     
       <div className="App">
         <Navbar />
