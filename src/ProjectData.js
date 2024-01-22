@@ -1,5 +1,12 @@
 const projectData = [
-    {
+  {
+    image: './images/vintagedrip.png',
+    description: 'VintageDrip is an online retailer of clothing and accessories from the 80s & 90s utilizing ReactJS frontend and Shopify integration backend.',
+    githubLink: 'https://github.com/clvalada/vintagedrip',
+    deployedLink: 'https://vintagedrip.store',
+    },
+
+  {
     image: './images/dragon-slayer.png',
     description: 'Dragon Slayer is a mobile-friendly role-playing-game based on a freeCodeCamp.org tutorial. I added images and edited the CSS to improve the UX.',
     githubLink: 'https://github.com/clvalada/rpg-dragon-slayer',
