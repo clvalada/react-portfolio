@@ -1,7 +1,7 @@
 const projectData = [
   {
-    image: './images/vintagedrip.png',
-    description: 'VintageDrip is an online clothing retailer. The site utilizes HTML, CSS, ReactJS and Shopify buy button and inventory integration.',
+    image: './images/VintageDripDesktop.png',
+    description: 'VintageDrip is an online clothing retailer. The site utilizes HTML, CSS, and ReactJS. Integrations include MailChimp, and Shopify buy-button.',
     githubLink: 'https://github.com/clvalada/vintagedrip',
     deployedLink: 'https://vintagedrip.store',
     },
