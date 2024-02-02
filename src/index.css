@@ -281,12 +281,8 @@ button[type="submit"]:hover {
   }
 
   .hero-text p {
-    text-align: center;
-    color: black;
     padding: 20px; /* Adjust as needed */
     font-size: 75px; /* Adjust as needed */
-    font-family: 'Caveat', cursive;
-    text-shadow: 2px 2px 4px #F7F6F6;
     margin-top: 75px;
   }
 }
