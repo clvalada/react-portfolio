@@ -39,6 +39,7 @@ ProjectCard.propTypes = {
 function Portfolio() {
   return (
     <div className="portfolio">
+      <h1>Portfolio</h1>
       <br></br>
       <div className="projects-container">
         {projectData.map((project, index) => (

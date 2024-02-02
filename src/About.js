@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePic from "./145150623.jpeg";
+import profilePic from "./images/145150623.jpeg";
 
 const About = () => {
   return (
@@ -11,6 +11,7 @@ const About = () => {
           <img src={ profilePic} />
         </div>
         <div className="right-content">
+          <h1>About Me</h1>
           <p>
             Full Stack Developer, life-long learner, and whiteboard enthusiast with extensive customer-facing experience in the Education Technology industry.
             

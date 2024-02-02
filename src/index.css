@@ -1,6 +1,7 @@
 /* Add or update the following styles in your CSS file */
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 
 * {
   margin: 0;
@@ -14,8 +15,51 @@ body {
   background-color: lightgray;
 }
 
-h2 {
+h1 {
   text-align: center;
+  text-shadow: 2px 2px 4px #F7F6F6;
+}
+
+.nav-h1 {
+  color: #F7F6F6;
+  margin-left: 16px;
+  text-shadow: 2px 2px 4px #f14c64;;
+}
+
+.hero {
+  position: relative;
+  background-image: url(./images/hero_desktop.jpg);
+  height: 100vh;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 2px solid #f14c64;
+}
+
+.hero-text {
+  position: absolute;
+  top: 40%;
+  left: 20px;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.hero-text-h1 {
+  text-align: left;
+  text-shadow: 2px 2px 4px #F7F6F6;
+  font-size: 68px;
+  font-family: 'Caveat';
+  margin-bottom: 20px;
+}
+
+.hero-bullet-list {
+  margin-left: 20px; 
+  font-size:20px
+}
+
+
+.hero-text{
+  text-align: left;
 }
 
 .portfolio {
@@ -64,7 +108,7 @@ h2 {
   padding: 20px;
   display: flex;
   align-items: center;
-  width: 900px;
+  width: 100%;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -79,20 +123,18 @@ h2 {
 .footer {
   padding: 20px;
   display: flex;
-  max-width: 900px;
-  margin: 0 auto;
-  border-top: 2px solid #f14c64;;
   justify-content: center;
+  align-items: center;
+  border-top: 2px solid #f14c64;
   background-color: #075070;
+  width: 100%;
 }
 
 .footer a {
   color: #F7F6F6;
 }
 
-.navbar h1 {
-  color: #F7F6F6;
-}
+
 
 .navbar .links {
   margin-left: auto;
@@ -100,7 +142,8 @@ h2 {
 }
 
 .navbar a {
-  margin-left: 16px;
+  margin-left: 0px;
+  margin-right:16px;
   text-decoration: none;
   padding: 6px;
   color: #F7F6F6;
@@ -111,9 +154,9 @@ h2 {
 }
 
 .content {
-  max-width: 900px;
+  max-width: 100%;
   margin: 10px auto;
-  padding: 10px;
+  padding: 0;
 }
 
 .container {
@@ -182,8 +225,9 @@ button[type="submit"]:hover {
 
 .about {
   display: flex;
-  border-bottom: 2px solid #f14c64;;
+  border-top: 2px solid #f14c64;;
   padding-bottom: 40px;
+  padding-top: 40px;
   align-items: center;
 }
 
