@@ -98,26 +98,26 @@ h1 {
 
 .featured-project-image, 
 .featured-project-description {
-  flex: 1; /* Equal width distribution */
-  padding: 20px; /* Add padding for better spacing */
+  flex: 1; 
+  padding: 20px; 
   min-width: 300px;
 }
 
 .featured-project-image img {
-  max-width: 100%; /* Ensure image doesn't exceed its container */
+  max-width: 100%; 
 }
 
 .featured-project-description h2 {
-  margin-top: 0; /* Remove default margin for better alignment */
+  margin-top: 0; 
 }
 
 .featured-project-description ul {
-  list-style: none; /* Remove default list styles */
+  list-style: none; 
   padding: 0;
 }
 
 .featured-project-description li {
-  margin-bottom: 10px; /* Adjust as needed for spacing between list items */
+  margin-bottom: 10px; 
 }
 
 .featured-project-links a {
@@ -297,7 +297,7 @@ button[type="submit"]:hover {
 @media (max-width: 1000px) {
   .featured-project-image,
   .featured-project-description {
-    flex: 1 100%; /* Stack on top of each other on small screens */
+    flex: 1 100%;
     min-width: 100%;
   }
 }
