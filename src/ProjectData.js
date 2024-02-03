@@ -1,11 +1,12 @@
 const projectData = [
+  /*
   {
     image: './images/VintageDripDesktop.png',
     description: 'VintageDrip is an online clothing retailer. The site utilizes HTML, CSS, and ReactJS. Integrations include MailChimp, and Shopify buy-button.',
     githubLink: 'https://github.com/clvalada/vintagedrip',
     deployedLink: 'https://vintagedrip.store',
     },
-
+  */
   {
     image: './images/dragon-slayer.png',
     description: 'Dragon Slayer is a mobile-friendly role-playing-game based on a freeCodeCamp.org tutorial. I added images and edited the CSS to improve the UX.',
@@ -42,12 +43,14 @@ const projectData = [
         githubLink: 'https://github.com/clvalada/Timed-Coding-Quiz',
         deployedLink: 'https://clvalada.github.io/Timed-Coding-Quiz/',
       },
+      /*
       {
         image: './images/notetaker.png',
         description: 'Note Taker is an Express.js application that enables the user to take and save notes.',
         githubLink: 'https://github.com/clvalada/note-taker',
         deployedLink: 'https://note-taker-clv-f900bf932a65.herokuapp.com/public/index.html',
       },
+      */
   ];
   
   export default projectData;

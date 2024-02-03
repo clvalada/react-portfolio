@@ -79,6 +79,58 @@ h1 {
   margin-top: 235px;
 }
 
+.featured-projects {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.featured-project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: calc(100%-50px);
+  border-radius: 10px;
+  background-color: whitesmoke;
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.featured-project-image, 
+.featured-project-description {
+  flex: 1; /* Equal width distribution */
+  padding: 20px; /* Add padding for better spacing */
+  min-width: 300px;
+}
+
+.featured-project-image img {
+  max-width: 100%; /* Ensure image doesn't exceed its container */
+}
+
+.featured-project-description h2 {
+  margin-top: 0; /* Remove default margin for better alignment */
+}
+
+.featured-project-description ul {
+  list-style: none; /* Remove default list styles */
+  padding: 0;
+}
+
+.featured-project-description li {
+  margin-bottom: 10px; /* Adjust as needed for spacing between list items */
+}
+
+.featured-project-links a {
+  text-decoration: none;
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.featured-project-links a:hover {
+  color: #f14c64;
+}
+
 .portfolio {
   text-align: left;
   padding: 5px;
@@ -137,7 +189,6 @@ h1 {
 .container a:hover {
   color: #f14c64;
 }
-
 
 .content {
   max-width: 100%;
@@ -243,6 +294,14 @@ button[type="submit"]:hover {
 }
 */
 
+@media (max-width: 1000px) {
+  .featured-project-image,
+  .featured-project-description {
+    flex: 1 100%; /* Stack on top of each other on small screens */
+    min-width: 100%;
+  }
+}
+
 @media (max-width: 800px) {
   .custom-card {
     width: calc(700% - 10px);
@@ -255,8 +314,7 @@ button[type="submit"]:hover {
   }
 
   .navbar h1 {
-    font-size: 30px;
-    margin-bottom: 10px;
+    font-size: 25px;
   }
 
   h1 {
