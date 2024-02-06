@@ -7,7 +7,9 @@ const FeaturedProjects = () => {
             <h1>Featured Project</h1>
             <div className="featured-project-container">
                 <div className="featured-project-image">
-                    <img src={FeaturedImage} alt="Screenshots of VintageDrip.store on laptop and mobile" />
+                <a href="https://vintagedrip.store" target="_blank" rel="noopener noreferrer">
+                        <img src={FeaturedImage} alt="Screenshots of VintageDrip.store on laptop and mobile" />
+                </a>
                 </div>
                 <div className="featured-project-description">
                     <h2>VintageDrip.Store</h2>
