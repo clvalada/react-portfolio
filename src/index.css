@@ -21,7 +21,7 @@ h1 {
 .nav-h1 {
   color: #F7F6F6;
   margin-left: 16px;
-  text-shadow: 2px 2px 4px #f14c64;;
+  text-shadow: 2px 2px 4px #f14c64;
 }
 
 .navbar {
@@ -205,7 +205,7 @@ h1 {
 
 .about {
   display: flex;
-  border-top: 2px solid #f14c64;;
+  border-top: 2px solid #f14c64;
   padding-bottom: 40px;
   padding-top: 40px;
   align-items: center;
@@ -238,7 +238,28 @@ h1 {
 }
 
 .social-links a:hover {
-  color: #f14c64;;
+  color: #f14c64;
+}
+
+.calendly {
+  background-color: #075070;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #f14c64;
+}
+
+.calendly-h1 {
+  color: #F7F6F6;
+  text-shadow: 2px 2px 4px #f14c64;
+  transition: transform 0.3s ease-in-out;
+}
+
+.calendly a {
+  text-decoration: none; 
+}
+
+.calendly h1:hover {
+  transform: scale(1.1);
 }
 
 /*
