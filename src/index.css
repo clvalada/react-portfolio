@@ -62,7 +62,6 @@ h1 {
   background-size: cover;
   background-position: center;
   background-image: url(./images/desktop-xl.jpg);
-  border-bottom: 2px solid #f14c64;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,8 +71,8 @@ h1 {
 .hero-text p {
   text-align: center;
   color: black;
-  padding: 20px; /* Adjust as needed */
-  font-size: 95px; /* Adjust as needed */
+  padding: 20px;
+  font-size: 95px;
   font-family: 'Caveat', cursive;
   text-shadow: 2px 2px 4px #F7F6F6;
   margin-top: 235px;
@@ -94,6 +93,7 @@ h1 {
   margin-top: 20px;
   margin-left: 25px;
   margin-right: 25px;
+  margin-bottom:20px;
 }
 
 .featured-project-image, 
@@ -135,7 +135,7 @@ h1 {
   text-align: left;
   padding: 5px;
   margin: 5px;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .projects-container {
@@ -187,7 +187,7 @@ h1 {
 }
 
 .container a:hover {
-  color: #f14c64;
+  color: #f14c64
 }
 
 .content {
@@ -209,6 +209,9 @@ h1 {
   padding-bottom: 40px;
   padding-top: 40px;
   align-items: center;
+  margin-top: 20px;
+  background: whitesmoke;
+
 }
 
 .left-content {
@@ -231,27 +234,72 @@ h1 {
   padding: 10px;
 }
 
-.social-links a {
-  margin-right: 10px;
-  text-decoration: none;
+.footer {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  width: 100%;
   color: #F7F6F6;
+  position: fixed;
+  background-color: #075070;
+  z-index: 1000;
+  border-bottom: 2px solid #f14c64;
+  border-top: 2px solid #f14c64;
+}
+ 
+.footer a {
+  color: #F7F6F6;
+  text-decoration: none;
+}
+
+.footer-calendly {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.footer-calendly:hover {
+  transform: scale(1.1);
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-links a {
+  text-decoration: none;
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+  transition: transform 0.3s ease-in-out;
+  margin: 0 20px;
 }
 
 .social-links a:hover {
   color: #f14c64;
+  transform: scale(1.1);
 }
+
 
 .calendly {
   background-color: #075070;
   padding-top: 20px;
   padding-bottom: 20px;
   border-bottom: 2px solid #f14c64;
+  border-top: 2px solid #f14c64;
 }
 
 .calendly-h1 {
   color: #F7F6F6;
   text-shadow: 2px 2px 4px #f14c64;
   transition: transform 0.3s ease-in-out;
+  font-size: 25px;
 }
 
 .calendly a {
@@ -263,20 +311,6 @@ h1 {
 }
 
 /*
-.footer {
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-top: 2px solid #f14c64;
-  background-color: #075070;
-  width: 100%;
-}
-
-.footer a {
-  color: #F7F6F6;
-}
-
 .contactForm {
   border: 1px solid #ddd;
   padding: 20px;
@@ -318,10 +352,24 @@ button[type="submit"]:hover {
 @media (max-width: 1000px) {
   .featured-project-image,
   .featured-project-description {
-    flex: 1 100%;
+    flex: 1 1 100%;
     min-width: 100%;
   }
+
+  .about {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .left-content,
+  .right-content {
+    width: 100%;
+    text-align: center;
+  }
+
 }
+
 
 @media (max-width: 800px) {
   .custom-card {
@@ -360,8 +408,8 @@ button[type="submit"]:hover {
   }
 
   .hero-text p {
-    padding: 20px; /* Adjust as needed */
-    font-size: 75px; /* Adjust as needed */
+    padding: 20px; 
+    font-size: 75px;
     margin-top: 75px;
   }
 }

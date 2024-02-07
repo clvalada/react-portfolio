@@ -1,5 +1,6 @@
 import React from "react";
 import FeaturedImage from "./images/featured-vintage-drip.png"
+import Calendly from "./Calendly";
 
 const FeaturedProjects = () => {
     return ( 
@@ -29,8 +30,8 @@ const FeaturedProjects = () => {
                         <a href="https://vintagedrip.store" target="_blank" rel="noopener noreferrer">Deployed Project</a>
                     </div>
                 </div>
-
             </div>
+            <Calendly />
         </div>
      );
 }

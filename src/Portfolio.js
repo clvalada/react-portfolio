@@ -10,6 +10,7 @@ import PropTypes from 'prop-types';
 function ProjectCard({ image, description, githubLink, deployedLink }) {
   console.log('Image Path:, image');
   return (
+    <>
     <div className="custom-card">
       <img src={image} alt="Project" />
       <div>
@@ -25,6 +26,7 @@ function ProjectCard({ image, description, githubLink, deployedLink }) {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
