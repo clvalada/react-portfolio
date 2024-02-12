@@ -7,10 +7,10 @@ const Navbar = () => {
     <nav className="navbar">
       <h1 className="nav-h1">Chris Valada | Full Stack Developer</h1>
       <div className="links">
-        <Link to="/">Home</Link>
-        <Link to="/FeaturedProjects">Featured Project</Link>
-        <Link to="/Portfolio">Portfolio</Link>
-        <Link to="/About">About Me</Link>
+        {/*<Link to="/">Home</Link>*/}
+        {/*<Link to="/FeaturedProjects">Featured Project</Link>*/}
+        {/*<Link to="/Portfolio">Portfolio</Link>*/}
+        {/*<Link to="/About">About Me</Link>*/}
         {/*<Link to="/contact">Contact Me</Link>*/}
         {/*<Link to="/resume">Resume</Link>*/}
       </div> 
