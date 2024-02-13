@@ -6,6 +6,7 @@ const Hero = () => {
     <div className="hero-image">
       <div className="hero-text">
         <p>Your Partner from <br></br>Concept to Customers</p>
+        <h2>Digital Marketing | Web Development | Content Creation</h2>
       </div>
     </div>
   );

@@ -34,10 +34,11 @@ const FeaturedProjects = () => {
             </div>
             <div className="featured-project-container">
                 <div className="featured-project-description">
+                    <h2><i>Coming Soon</i></h2>
                     <h2>¡Flantastic Treats!</h2>
                     <br></br>
                     <ul>
-                        <h3>¡Flantastic Treats! is an online storefront for a local baker of Cuban desserts. The site is a Single Page Application (SPA) and is fully responsive on mobile devices to ensure convenient user experience.</h3>
+                        <h3>¡Flantastic Treats! is an online storefront for a local baker of Cuban desserts. The site is a Single Page Application (SPA,) written in HTML/CSS and ReactJS. It is fully responsive on mobile devices to ensure convenient user experience.</h3>
                         <br></br>
                         <h3>¡Flantastic Treats! is another example of my proficiency in front-end technologies and commitment to user-centric design.</h3>
                     </ul>

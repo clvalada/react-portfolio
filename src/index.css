@@ -78,6 +78,12 @@ h1 {
   margin-top: 235px;
 }
 
+.hero-text h2 {
+  color: whitesmoke;
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+}
+
 .featured-projects {
   text-align: center;
   padding-top: 20px;
@@ -411,5 +417,9 @@ button[type="submit"]:hover {
     padding: 20px; 
     font-size: 75px;
     margin-top: 75px;
+  }
+
+  .hero-text h2 {
+    font-size: 25px;
   }
 }
